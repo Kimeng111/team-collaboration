@@ -21,7 +21,7 @@ namespace testCollectRequest.Controllers
             if (Password == Confirm)
                 return Content("Register Successfully");
             else
-                return Content("Register Unsuccessfully");
+                return Content("Register is not successful");
         }
         public ActionResult LogIn()
         {
